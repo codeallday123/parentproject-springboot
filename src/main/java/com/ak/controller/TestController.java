@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ak.model.AccountInfo;
+import com.ak.dependency.model.AccountInfo;
 import com.ak.model.UserInfo;
 import com.ak.service.Service;
 
