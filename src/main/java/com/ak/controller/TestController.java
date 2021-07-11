@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ak.dependency.model.AccountInfo;
-import com.ak.service.Service;
+import com.ak.service.TestService;
 
 /**
  * Controller component to serve all REST requests.
@@ -16,7 +16,7 @@ import com.ak.service.Service;
 public class TestController {
 
 	@Autowired
-	private Service service;
+	private TestService service;
 
 	@RequestMapping(value = "/account",method = RequestMethod.GET)
 	public AccountInfo mainRequest() {
