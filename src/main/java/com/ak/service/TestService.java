@@ -1,13 +1,13 @@
 package com.ak.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.ak.aspect.MethodLog;
 import com.ak.dependency.Route;
 import com.ak.dependency.model.AccountInfo;
 
-@Component
+@Service
 public class TestService {
 
 	@Autowired
