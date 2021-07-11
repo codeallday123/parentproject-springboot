@@ -8,7 +8,7 @@ import com.ak.dependency.Route;
 @Configuration
 public class Config {
 
-	@Bean(name = "nemesisRouter")
+	@Bean(name = "router")
 	public Route route() {
 		return new Route();
 
