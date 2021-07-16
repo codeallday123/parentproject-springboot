@@ -1,0 +1,12 @@
+<aspectj>
+
+    <weaver options="-verbose -showWeaveInfo">
+        <!-- only weave classes in our application-specific packages -->
+        <include within="com.ak..*"/>
+    </weaver>
+
+    <aspects>
+        <aspect name="com.ak.aspect.MethodLogAspect"/>
+    </aspects>
+
+</aspectj>
